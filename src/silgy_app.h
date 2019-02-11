@@ -1,26 +1,26 @@
 /* --------------------------------------------------------------------------
-   Silgy Web App
-   Jurek Muszynski
-   silgy.com
------------------------------------------------------------------------------
-   Hello World Sample Silgy Web Application
 -------------------------------------------------------------------------- */
 
-#ifndef SILGY_APP_H
-#define SILGY_APP_H
+#ifndef APP_H
+#define APP_H
 
 
-#define APP_WEBSITE                 "Silgy Hello World"
-#define APP_DOMAIN                  "example.com"
-#define APP_DESCRIPTION             "Hello World Sample Silgy Web Application"
-#define APP_VERSION                 "1.0"
+#define	APP_WEBSITE					"StageKit"
+#define APP_DOMAIN					"stagekit.net"
+#define APP_DESCRIPTION				"Stage Toolkit"
+#define APP_KEYWORDS				"stagekit"
+#define	APP_VERSION					"1.0"
+#define APP_DEF_AUTH_LEVEL			AUTH_LEVEL_NONE
+#define APP_ADMIN_EMAIL				"mikim99@poczta.onet.pl"
+#define APP_CONTACT_EMAIL			"mikim99@poczta.onet.pl"
 
 
 /* app user session */
 
 typedef struct {
-    int id;
+	long		plans;
 } ausession_t;
 
 
-#endif  /* SILGY_APP_H */
+
+#endif	/* APP_H */
